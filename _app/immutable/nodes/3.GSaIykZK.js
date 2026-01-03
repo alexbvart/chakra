@@ -1,0 +1,1 @@
+import{f as s,a as t}from"../chunks/BVBqPngv.js";import{d as e,r as m}from"../chunks/CokNJYr7.js";import{s as n}from"../chunks/C9jyqWIL.js";var p=s('<div class="beneficios-layout"><!></div>');function l(r,a){var o=p(),i=e(o);n(i,()=>a.children),m(o),t(r,o)}export{l as component};
