@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
   import { ArrowRight, CheckCircle2, Zap, Sprout } from 'lucide-svelte';
 </script>
 
@@ -32,11 +33,11 @@
             <ArrowRight size={24} class="group-hover:translate-x-1 transition-transform" />
           </button>
           
-          <button 
-            on:click={() => window.location.href = '/beneficios'}
+          <a 
+            href="{base}/beneficios"
             class="bg-slate-50 text-slate-700 border-2 border-slate-100 px-10 py-6 rounded-[2rem] font-bold text-xl hover:bg-white hover:border-[#2ECC71] transition-all">
             Ver beneficios
-          </button>
+        </a>
         </div>
 
         <div class="mt-12 flex items-center gap-6 p-4 rounded-3xl bg-slate-50/50 border border-slate-100 w-fit">

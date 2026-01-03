@@ -5,7 +5,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import SuccessisOurs from '$lib/components/SuccessisOurs.svelte';
 
-		let { children } = $props();
+	let { children } = $props();
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
